@@ -31,7 +31,7 @@ try:
             sys.exit()
     for arg in sys.argv[1:]:
         if arg == "-h": #checking if the help flag is provided
-            print("Usage: python Basic_nmap.py <target> [-o <filename>]")
+            print("Usage: python Port_Scanner.py <target> [-o <filename>]")
             sys.exit()
         elif arg != "-o" and arg !=filename: #checking if the argument is not -o and not the filename
             target=arg 
